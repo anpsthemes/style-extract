@@ -8,6 +8,15 @@ Style-extract is a [Node.js](http://nodejs.org/) script for extracting only spec
 npm install style-extract
 ```
 
+## Settings
+
+extract(code, [options])
+
+`code`: String of the CSS code.
+
+`options`:
+* properties: an array of CSS properties, that will be extracted
+
 ## Usage
 
 ``` javascript
@@ -49,10 +58,10 @@ fs.writeFileSync("result.css", new Buffer(result));
 }
 ```
 ## Grunt version
-The Grunt version can be found at [grunt-style-extract](#).
+The Grunt version can be found at [grunt-style-extract](https://www.npmjs.com/package/grunt-style-extract).
 
 ## Gulp version
-The Gulp version can be found at [gulp-style-extract](#).
+The Gulp version can be found at [gulp-style-extract](https://www.npmjs.com/package/gulp-style-extract).
 
 ## License
 
