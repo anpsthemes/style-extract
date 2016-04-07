@@ -8,6 +8,14 @@
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/anpsthemes/style-extract",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anpsthemes/style-extract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anpsthemes/style-extract/issues"
+  },
   "babel": {
     "presets": [
       "es2015"
